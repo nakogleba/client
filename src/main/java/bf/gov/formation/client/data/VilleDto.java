@@ -12,19 +12,19 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- *C'est une classe pour la gestion du client.
- * @author User
+ *
+ * @author Lenovo
  */
 @Getter
 @Setter
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Client1 implements Serializable{
-    private String idclient;
+public class VilleDto implements Serializable {
+
+    private Integer id;
     private String nom;
-    private String prenom;
-    private String numero;
-    private String age;
-    
+    private Integer population;
+    private  EStatus status;
+
 }

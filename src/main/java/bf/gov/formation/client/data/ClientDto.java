@@ -20,11 +20,11 @@ import lombok.Setter;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Client implements Serializable{
-   
+public class ClientDto implements Serializable{
     private String idclient;
     private String nom;
     private String prenom;
     private String numero;
     private String age;
+    
 }

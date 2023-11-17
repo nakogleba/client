@@ -40,6 +40,8 @@
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
+		 <version>1.18.30</version>
+		 <type>jar</type>
 		</dependency>
                 <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
 <dependency>
